@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Partikel Semesta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Partikel Semesta</h1>
+  <p class="tagline">Poin adalah ukuran terkecil di alam semesta.</p>
+
+  <div><b id="points">0</b></div>
+  <div>poin, bertambah <span id="pps">0</span> per detik</div>
+  <div>bonus rebirth <b id="bonus">+0%</b></div>
+  <div>bonus Big Bang <b id="bigBangBonus">+0%</b></div>
+
+  <div id="shop"></div>
+
+  <button id="rebirth" class="item rebirth">
+    <span><strong>Rebirth</strong><small id="rebirthInfo"></small></span>
+    <b id="rebirthCost"></b>
+  </button>
+
+  <button id="bigbang" class="item bigbang">
+    <span><strong>Big Bang</strong><small id="bigBangInfo"></small></span>
+    <b id="bigBangStatus"></b>
+  </button>
+
+  <button id="reset">Reset game</button>
+</main>
+
+<script src="config.js"></script>
+<script src="state.js"></script>
+<script src="game.js"></script>
+<script src="ui.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
